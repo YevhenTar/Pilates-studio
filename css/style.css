@@ -1,0 +1,1868 @@
+@font-face {
+    font-family: 'SFUIText-Light';
+    src: url('../fonts/SFUIText-Light/SFUIText-Light.eot');
+    src: url('../fonts/SFUIText-Light/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SFUIText-Light/SFUIText-Light.svg#SFUIText-Light') format('svg'),
+         url('../fonts/SFUIText-Light/SFUIText-Light.ttf') format('truetype'),
+         url('../fonts/SFUIText-Light/SFUIText-Light.woff') format('woff'),
+         url('../fonts/SFUIText-Light/SFUIText-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIText-Medium';
+    src: url('../fonts/SFUIText-Medium/SFUIText-Medium.eot');
+    src: url('../fonts/SFUIText-Medium/SFUIText-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SFUIText-Medium/SFUIText-Medium.svg#SFUIText-Medium') format('svg'),
+         url('../fonts/SFUIText-Medium/SFUIText-Medium.ttf') format('truetype'),
+         url('../fonts/SFUIText-Medium/SFUIText-Medium.woff') format('woff'),
+         url('../fonts/SFUIText-Medium/SFUIText-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIText-Semibold';
+    src: url('../fonts/SFUIText-Semibold/SFUIText-Semibold.eot');
+    src: url('../fonts/SFUIText-Semibold/SFUIText-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SFUIText-Semibold/SFUIText-Semibold.svg#SFUIText-Semibold') format('svg'),
+         url('../fonts/SFUIText-Semibold/SFUIText-Semibold.ttf') format('truetype'),
+         url('../fonts/SFUIText-Semibold/SFUIText-Semibold.woff') format('woff'),
+         url('../fonts/SFUIText-Semibold/SFUIText-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIText-Bold';
+    src: url('../fonts/SFUIText-Bold/SFUIText-Bold.eot');
+    src: url('../fonts/SFUIText-Bold/SFUIText-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SFUIText-Bold/SFUIText-Bold.svg#SFUIText-Bold') format('svg'),
+         url('../fonts/SFUIText-Bold/SFUIText-Bold.ttf') format('truetype'),
+         url('../fonts/SFUIText-Bold/SFUIText-Bold.woff') format('woff'),
+         url('../fonts/SFUIText-Bold/SFUIText-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova-Extrabld';
+    src: url('../fonts/ProximaNova-ExtraBold/ProximaNova-Extrabld.eot');
+    src: url('../fonts/ProximaNova-ExtraBold/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNova-ExtraBold/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg'),
+         url('../fonts/ProximaNova-ExtraBold/ProximaNova-Extrabld.ttf') format('truetype'),
+         url('../fonts/ProximaNova-ExtraBold/ProximaNova-Extrabld.woff') format('woff'),
+         url('../fonts/ProximaNova-ExtraBold/ProximaNova-Extrabld.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('../fonts/ProximaNova-Regular/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),
+    url('../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf') format('truetype'),
+    url('../fonts/ProximaNova-Regular/ProximaNova-Regular.woff') format('woff'),
+    url('../ProximaNova-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot');
+    src: url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'),
+    url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.ttf') format('truetype'),
+    url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff') format('woff'),
+    url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light/Roboto-Light.eot');
+    src: url('../fonts/Roboto-Light/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light/Roboto-Light.svg#Roboto-Light') format('svg'),
+         url('../fonts/Roboto-Light/Roboto-Light.ttf') format('truetype'),
+         url('../fonts/Roboto-Light/Roboto-Light.woff') format('woff'),
+         url('../fonts/Roboto-Light/Roboto-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+         url('../fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff'),
+         url('../fonts/Roboto-Regular/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Medium/Roboto-Medium.svg#Roboto-Medium') format('svg'),
+         url('../fonts/Roboto-Medium/Roboto-Medium.ttf') format('truetype'),
+         url('../fonts/Roboto-Medium/Roboto-Medium.woff') format('woff'),
+         url('../fonts/Roboto-Medium/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Medium') format('svg'),
+    url('../fonts/Roboto-Bold/Roboto-Bold.ttf') format('truetype'),
+    url('../fonts/Roboto-Bold/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold/Roboto-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    font-family: 'SFUIText-Light', Arial, 'Nimbus Sans L', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.871);
+}
+
+
+  
+/* Pilates Front-Page*/
+
+
+.main-header{
+    background-image: url('../img/front-lady.png'), url('../img/half-circle.png'), url('../img/small-circle.png'),
+    url('../img/big-circle.png'), url('../img/left-circle.png');
+    background-repeat: no-repeat;
+    background-position: left 644px top 36px, left 1331px top 20px, left 1200px top 119px, left 757px top 177px, 0 0;
+    background-size: 694px 736px, 56px 56px, 59px 59px, 455px 455px, 773px 785px;
+    min-height: 786px;
+    padding-top: 30px;
+    position: relative;
+}
+
+
+
+
+.container{
+    max-width: 1167px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pilates-front{
+    width:100%;
+    padding-top: 122px;
+}
+.pilates-logo{
+    color:rgb(254, 254, 254);
+    text-decoration: none;
+    width: 62px;
+    font-family: 'SFUIText-Light', Arial, 'Nimbus Sans L', Helvetica, sans-serif;
+    font-size: 12.7px;
+    letter-spacing: 0.91px;
+    font-weight: 300;
+}
+.pilates-plus{
+   vertical-align: 0.1em;
+}
+.burger-menu{
+    margin-top: 20px;
+    margin-left: 23px;
+}
+.burger-menu:hover + .main-nav {
+  display: block;
+}
+.pilates-phone{
+    color:rgba(0, 0, 0, 0.871);
+    text-decoration: none;
+    font-family: 'SFUIText-Bold', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.285px;
+    padding-top: 25px;
+    padding-right: 3px;
+}
+.pilates-headline{
+    width: 328px;
+    color: white;
+    font-family: 'Roboto-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-size: 58px;
+    letter-spacing: 4.36px;
+    font-weight: 300;
+    line-height: 1.241;
+    margin: 0;
+}
+.pilates-text {
+    font-size: 17.6px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    margin-top: 13.35px;
+    margin-bottom: 44px;
+}
+.schedule-btn {
+    display:block;
+    width: 244px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 27px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 48px;
+    text-decoration: none;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top:20px;
+    left: 211px;
+}
+.number-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 232px;
+    right: 36.5px;
+}
+.page-number{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'SFUIText-Semibold', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 30.34px;
+    color: rgb(153, 153, 153);
+}
+.main-nav {
+    background-color: rgb(145, 170, 89);
+    display: none;
+    position: absolute;
+    min-width: 1366px;
+    min-height: 783px;
+    top: -30px;
+    left: -95px;
+    z-index: 1000;
+}
+.nav-list{
+    padding-top: 42px;
+    padding-left: 417px;
+    list-style-type: none;
+}
+.nav-list li:first-child{
+    list-style-type: disc;
+}
+.nav-list li {
+    font-family: 'Roboto-Bold', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+}
+.main-nav img {
+    margin-left: 1272px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* Pilates Front-Page */
+
+/* Pilates About */
+
+.about-pilates{
+    padding-top: 55.7px;
+    position: relative;
+    background-image: url('../img/green-points.png');
+    background-size: 134px 132px;
+    background-position: left 525px top 287px;
+    background-repeat: no-repeat;
+}
+.about-pilates .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 849px;
+    position: relative;
+}
+.about-headline {
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 48.12px;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 30.03px;
+    text-align: left;
+    margin: 0;
+    padding-top: 22px;
+    padding-left: 6px;
+}
+.about-toptext{
+    font-size: 16px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 24px;
+    text-align: left; 
+    width: 314px;
+    margin-top: 64px;
+    margin-bottom: 2px;
+}
+.about-bottomtext{
+    font-size: 16px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.5;
+    width:386px;
+    margin-top: 0;
+    margin-bottom: 33px;
+    white-space: pre-line;
+}
+.detail-text{ 
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(42, 79, 55);
+    text-align: left;
+    letter-spacing: 1.4px;
+    position: relative;
+    width: 120.59px;
+}
+.detail-arrow{
+    position: absolute;
+    top: 2px;
+    left: 110px;
+}
+.yoga-meditation {
+    position: absolute;
+    top: 33px;
+    left: 307.59px;
+}
+.number-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 286px;
+    right: 36.5px;
+}
+/* Pilates About */
+/* Pilates Shedule */
+.shedule-pilates{
+    position: relative;
+    padding-bottom: 94px;
+}
+.shedule-headline{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 59px;
+    font-size: 48px;
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.871);
+    padding-left: 5px;
+}
+.novice-block, .profi-block, .master-block{
+    width: 375px;
+    height: 591px;
+    border-radius: 4px;
+    background-color: rgb(145, 170, 89);
+    position: relative;
+    padding-left: 70px;
+    padding-top: 187px;
+    box-sizing: border-box;
+}
+.novice-block{
+    opacity: 0.502;
+}
+.profi-block {
+    opacity: 0.702;
+    margin-left: 2px;
+}
+.master-block{
+    opacity: 0.902;
+    margin-right: 3px;
+}
+.number{
+    margin:0;
+    position: absolute;
+    top: 50px;
+    right: 49px;
+    font-size: 210px;
+    font-family: 'ProximaNova-Extrabld', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.102);
+}
+.level{
+    font-size: 14px;
+    font-family: 'Roboto-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.6px;
+    white-space: pre-line;
+    margin: 0;
+}
+.level span{
+    font-size: 28px;
+    font-family: 'Roboto-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+}
+.price{
+    font-size: 23px;
+    font-family: 'SFUIText-Bold', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 19px;
+    letter-spacing: 0.5px;
+}
+.meeting{
+    font-size: 18.51px;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin:0;
+    white-space: pre;
+}
+.meeting-monday{
+    margin-top: 28px;
+    margin-bottom: 13px;
+    white-space: pre;
+    font-size: 18.51px;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.meeting-wednesday{
+    white-space: pre;
+    font-size: 18.51px;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.meeting-friday{
+    font-size: 18.51px;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin:0;
+    white-space: pre;
+    padding-left:2px;
+}
+.check-btn {
+    width: 233px;
+    font-size: 19px;
+    display:block;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 26px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 49px;
+    text-decoration: none;
+    position: relative;
+    margin-top: 41px;
+  }
+.check-btn>.schedule-arrow{
+    position: absolute;
+    top:19px;
+    left: 193px;
+}
+.number-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 299px;
+    right: 36.5px;
+}
+.shedule-form{
+    display: none;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 9px 22.72px 9.28px rgba(27, 27, 27, 0.2);
+    width: 1165px;
+    height: 777px;
+    position: absolute;
+    top: -105px;
+    left: -1px;
+}
+.check-btn:hover + .shedule-form{
+   display: block;
+    position: absolute;
+    top: -105px;
+    left: -1px;
+    z-index: 10000;
+}
+.shedule-form img {
+    padding-top: 62px;
+    padding-left: 1024px;
+}
+.form-headline{
+    font-size: 48px;
+    font-family: 'ProximaNova-Semibold', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 102px;
+    margin-bottom: 33px;
+}
+.form-text{
+    font-family: 'ProximaNova-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.2;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 300px;
+}
+.form-label{
+    font-size: 16px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgb(17, 17, 17);
+    line-height: 1.871;
+    text-align: left;
+}
+.form-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 51px;
+    margin-left: 154px;
+    margin-right: 160px;
+}
+.form-box p{
+    width: 220px;
+}
+.form-box input{
+    width: 220px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(103, 103, 103);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.sign-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 155px;
+    margin-right: 157px;
+}
+.sign-box input {
+    display: none;
+}
+.sign-label{
+    font-size: 18px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgb(17, 17, 17);
+    line-height: 1.667;
+    text-align: left;
+}
+.sign-input:checked + .sign-label:before {
+    content: " ";
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 1px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    background-color: rgb(145, 170, 89);
+}
+.sign-input:checked + .sign-label:after{
+    content: "";
+    position: absolute;
+    left: 167px;
+    top: 531px;
+    width: 6px;
+    height: 4px;
+    transform: skew(43deg, -53deg);
+    border-left: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+}
+.sign-btn{
+    font-size: 18px;
+    font-family: 'SFUIText-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 27px;
+    background-color: rgb(145, 170, 89);
+    width: 237px;
+    height: 54px;
+}
+/* Pilates Shedule */
+/* Pilates Training */
+.training-block{
+    flex-grow: 1;
+}
+.training-headline {
+    font-size: 48px;
+    font-family: 'Roboto-Medium', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.2;
+    font-weight: 500;
+    margin-top: 30px;
+    padding-left: 6px;
+}
+.breath-subheadline{
+    font-size: 28px;
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(36, 36, 36, 0.871);
+    line-height: 1.2;
+    padding-left: 95px;
+    padding-top: 166px;
+    margin-bottom: 22px;
+}
+.breath-text {
+    font-size: 16px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgba(1, 1, 1, 0.871);
+    line-height: 1.499;
+    width: 400px;
+    padding-left: 95px;
+}
+.lady-on-ball{
+    padding-right: 147px;
+    position: relative;
+    top: 29px;
+}
+.lady-on-back{
+    padding-left: 107px;
+    position: relative;
+    bottom: -2px;
+}
+.warmup-subheadline{
+    font-size: 28px;
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(36, 36, 36, 0.871);
+    line-height: 1.2;
+    padding-left: 52px;
+    padding-top: 287px;
+    margin-bottom: 17px;
+}
+.warmup-text {
+    font-size: 16px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgba(1, 1, 1, 0.871);
+    line-height: 1.499;
+    width: 400px;
+    padding-left: 54px;
+}
+.mainblock-subheadline{
+    font-size: 28px;
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(36, 36, 36, 0.871);
+    line-height: 1.2;
+    padding-left: 93px;
+    padding-top: 243px;
+    margin-top: 0px;
+    margin-bottom: -6px;
+}
+.mainblock-text {
+    font-size: 16px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgba(1, 1, 1, 0.871);
+    line-height: 1.499;
+    width: 400px;
+    padding-left: 93px;
+    white-space: pre-line;
+    margin-top: 0px;
+}
+.lady-layingon-ball{
+    position: relative;
+    top: 131px;
+    padding-right: 152px;
+}
+.lady-stretching{
+    padding-top: 281px;
+    padding-left: 46px;
+}
+.stretching-subheadline{
+    font-size: 28px;
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(36, 36, 36, 0.871);
+    line-height: 1.2;
+    padding-left: 37px;
+    padding-top: 394px;
+    margin-bottom: 18px;
+}
+.stretching-text {
+    font-size: 16px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgba(1, 1, 1, 0.871);
+    line-height: 1.499;
+    width: 400px;
+    padding-left: 37px;
+}
+.stretching-block{
+    width: 692px;
+}
+/* Pilates Training */
+/* Pilates Feedback */
+.pilates-feedback{
+    position: relative;
+}
+.feedback-headline {
+    margin-top: 79px;
+    padding-left: 8px ;
+    width: 100%;
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.2;
+}
+.left-arrow {
+    padding-top: 219px;
+}
+.feedback-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    border-radius: 4px;
+    box-shadow: 0px 9px 22.72px 9.28px rgba(33, 33, 33, 0.04);
+    width: 977px;
+    height: 394px;
+    margin-top: 20px;
+
+}
+.photo-lady {
+    padding-top: 107px;
+    padding-left: 141px;
+}
+.feedback-text{
+    padding-left: 54px;
+    padding-top: 60px;
+}
+.feedback-subheadline{
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.photo-age{
+    padding-left: 2px;
+    font-size: 18px;
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.2;
+}
+.feedback-description {
+    margin-top: 18px;
+    padding-left: 3px;
+}
+.description-text{
+    width: 425px;
+    height: 110px;
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    margin:0;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: pre-line;
+}
+.age-line{
+    width: 130px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: end;
+}
+.feedback-circles{
+    margin-top: 47px;
+    margin-left: -3px;
+}
+.right-arrow {
+    padding-top: 219px;
+    padding-left: 72px;
+}
+.arrow-ref {
+    width: 95px;
+    height: 394px;
+}
+.slider-points {
+    padding-top: 48.5px;
+}
+.points-ref{
+    width: 100%;
+    text-align: center;
+}
+.number-box5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 281px;
+    right: 36.5px;
+}
+/* Pilates Feedback */
+/* Pilates Contacts */
+.pilates-contacts .container{
+    max-width: 100%;
+    position: relative;
+}
+.contacts-headline {
+    font-family: 'Roboto-Regular', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.2;
+    padding-left: 107px;
+    margin-top: 121px;
+    margin-bottom: 58px;
+}
+.contacts-address {
+    width: 310px;
+    height: 355px;
+    background-color: rgb(145, 170, 89);
+    box-shadow: 0px 6px 15px 0px rgba(33, 33, 33, 0.2);
+    position: absolute;
+    left: 100px;
+    top: 237px;
+}
+.text-address {
+    padding-top: 54.5px;
+    padding-left: 67.5px;
+}
+.text-address p {
+    font-family: 'SFUIText-Semibold', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.871);
+    line-height: 1.875;
+}
+.address{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.phone{
+    margin-top: 21px;
+    margin-bottom: 7px;
+}
+.mail{
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+.text-address a {
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.871);
+}
+.address-ref {
+    white-space: pre-line;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    text-decoration: none;
+
+}
+.phone-ref {
+    letter-spacing: -0.2px;
+    text-decoration: none;
+}
+.mail-ref {
+    text-decoration: underline;
+    letter-spacing: -0.3px;
+}
+/* Pilates Contacts */
+/* Pilates Footer */
+.main-footer{
+        background-color: rgb(145, 170, 89);
+        height: 130px;
+}
+.main-footer .container{
+    padding-top: 37px;
+}
+.footer-headline {
+    font-family: 'SFUIText-Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    color: rgb(254, 254, 254);
+    line-height: 1.574;
+}
+.footer-logo{
+    margin-right: 70px;
+}
+.footer-media {
+    padding-top: 15.33px;
+    padding-right: 1px;
+    width: 93.67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vkontakte {
+    padding-top: 5.33px;
+}
+.instagram {
+    padding-top: 3.33px;
+}
+.facebook {
+    padding-top: 1px;
+}
+@media (min-width: 1391px) {
+    .about-pilates {
+        background-image: none;
+    }
+    .main-header {
+        background-size: 694px 736px, 56px 56px, 59px 59px, 455px 455px, 95% 785px;
+    }
+}
+@media (min-width: 764px) and (max-width: 1365px) {
+    .main-header {
+        background-image: url('../img/front-lady.png'), url('../img/half-circle.png'), url('../img/small-circle.png'),
+        url('../img/big-circle.png'), url('../img/left-circle.png');
+        background-position: right -60px top 51px, left 721px top 51px, left 625px top 142px, left 757px top 177px, left -122px top -7px;
+        background-size: 564px 598px, 62px 62px, 64px 64px, 455px 455px, 83.26% 100%;
+        padding-top: 23px;
+        min-height: 648px;
+    }
+    .container{
+        max-width: 642px;
+    }
+    .pilates-image{
+        width: 80%;
+        height: 66%;
+    }
+    .pilates-logo{
+        font-size: 10px;
+        color: rgb(254, 254, 254);
+    }
+    .burger-menu{
+        padding-left: 42px;
+        margin-top: 9px;
+    }
+    .pilates-headline{
+        font-size: 48px;
+        letter-spacing: 3.6px;
+    }
+    .pilates-front{
+        padding-top: 114px;
+    }
+    .pilates-text{
+        margin-top: 37px;
+    }
+    .pilates-phone{
+        padding-top: 16px;
+        padding-right: 0;
+    }
+    .main-nav {
+        display: none;
+        width: 764px;
+        min-height: 710px;
+        top: -73px;
+        left: -305px;
+        z-index: 1000;
+    }
+    .main-nav img {
+        margin-left: 907px;
+        margin-top: 120px;
+        width: 31px;
+        height: 30px;
+    }
+    .nav-list {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .nav-list li {
+        font-size: 36px;
+        line-height: 71px;
+        padding-bottom: 26px;
+     }
+    .about-headline {
+        font-size: 24px;
+        padding-left: 31px;
+        padding-top: 17px;
+    }
+    .about-toptext{
+        margin-top: 37px;
+        line-height: 1.2;
+        padding-left: 2px;
+
+    }
+   .about-bottomtext{
+       line-height: 1.2;
+       width: 310px;
+       white-space: normal;
+       margin-top: 19px;
+       margin-bottom: 45px;
+       padding-left: 2px;
+   }
+   .detail-text{
+       padding-left: 2px;
+       letter-spacing: 1.6px;
+   }
+   .detail-arrow{
+       left: 115px;
+   }
+    .yoga-meditation {
+        position: absolute;
+        left: 222px;
+        top: 110px;
+        width: 65%;
+        height: 36%;
+    }
+    .about-pilates{
+        background-image: none;
+        height: 500px;
+    }
+    .shedule-pilates{
+        padding-bottom: 53px;
+    }
+    .shedule-headline{
+        font-size: 24px;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 44px;
+        padding-left: 29px;
+    }
+    .novice-block, .profi-block, .master-block{
+        width: 32%;
+        height: 100%;
+        padding-left: 25px;
+        padding-top: 100px;
+    }
+    .number {
+        font-size: 114px;
+    }
+    .level{
+        font-size: 12px;
+    }
+    .level span{
+        font-size: 18px;
+        letter-spacing: 1.8px;
+    }
+    .price {
+        font-size: 13px;
+    }
+    .meeting-monday, .meeting-wednesday, .meeting-friday{
+        font-size: 16px;
+        white-space: normal;
+    }
+    .meeting-monday {
+        margin-top: 23px;
+        white-space: normal;
+    }
+    .meeting-wednesday{
+        margin-bottom: 12px;
+    }
+    .check-btn {
+        width: 127px;
+        height: 26px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 32px;
+        margin-left: 2px;
+        margin-bottom: 41px;
+    }
+    .check-btn> .schedule-arrow {
+        border-width: 1px;
+        left: 112px;
+        top: 7px;
+        width: 28%;
+        height: 45%;
+    }
+    .number{
+        top: 18px;
+        left: 48px;
+    }
+    .price {
+        font-size: 16px;
+        margin-top: 12px;
+        letter-spacing: 0;
+    }
+    .training-headline {
+        font-size: 24px;
+        padding-left: 28px;
+    }
+    .breath-subheadline{
+        font-size: 18px;
+        padding-left: 55px;
+        padding-top: 67px;
+    }
+    .breath-text{
+       line-height: 1.2;
+        padding-left: 54px;
+        padding-top: 4px;
+        width: 314px;
+        height: 70.886px;
+    }
+    .lady-on-ball {
+        padding-right: 0;
+        top: 28px;
+        width: 78%;
+        height: 100%;
+        padding-left: 57px;
+    }
+    .training-block{
+        flex-grow: 0;
+        width: 50%;
+    }
+    .lady-on-back {
+        padding-left: 24px;
+        width: 82%;
+        height: 100%;
+        top: 7px;
+    }
+    .warmup-subheadline{
+        font-size: 18px;
+        padding-top: 146px;
+        padding-left: 23px;
+    }
+    .warmup-text{
+        padding-top: 5px;
+        padding-left: 25px;
+        width: 300px;
+        line-height: 1.2;
+    }
+    .mainblock-subheadline {
+        font-size: 18px;
+        padding-left: 29px;
+        padding-top: 150px;
+    }
+    .mainblock-text {
+        width: 250px;
+        padding-left: 29px;
+        white-space: normal;
+        margin-top: 28px;
+        line-height: 1.19;
+    }
+    .lady-layingon-ball {
+        padding-right: 0;
+        top: 103px;
+        width: 92%;
+        height: 86%;
+        margin-left: -29px;
+    }
+    .lady-layingon-ball {
+        padding-right: 0;
+        position: relative;
+        top: 103px;
+        width: 92%;
+        height: 86%;
+        margin-left: -29px;
+    }
+    .stretching-block {
+        width: 50%;
+    }
+    .lady-stretching {
+        padding-top: 108px;
+        margin-left: -76px;
+        width: 122%;
+        height: 72%;
+    }
+    .stretching-subheadline {
+        font-size: 18px;
+        line-height: 1.2;
+        padding-left: 30px;
+        padding-top: 163px;
+    }
+    .stretching-text {
+        line-height: 1.2;
+        width: 288px;
+        padding-left: 31px;
+        margin-top: 25px;
+        letter-spacing: -0.3px;
+    }
+    .feedback-headline {
+        margin-top: 69px;
+        padding-left: 27px;
+        font-size: 25px;
+    }
+    .arrow-ref {
+        width: 63.5px;
+        height: 208px;
+    }
+    .left-arrow {
+        padding-top: 94px;
+        width: 14px;
+        height: 24px;
+        border-width: 2px;
+    }
+    .feedback-block {
+        width: 515px;
+        height: 208px;
+    }
+    .photo-lady {
+        padding-top: 59px;
+        padding-left: 33px;
+        width: 19%;
+        height: 46%;
+    }
+    .feedback-text {
+        padding-left: 25px;
+        padding-top: 4px;
+    }
+    .feedback-subheadline {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .photo-age {
+        font-size: 14px;
+    }
+    .description-text {
+        line-height: 1.2;
+        width: 295px;
+        overflow: hidden;
+        white-space: normal;
+    }
+    .small-vk{
+        width: 20px;
+        height: 12px;
+        padding-left: 6px;
+    }
+    .instagram{
+        width: 15px;
+        height: 15px;
+    }
+    .age-line{
+        align-items: center;
+        width: 122px;
+    }
+    .feedback-description {
+        margin-top: 9px;
+        padding-left: 0;
+    }
+    .delete-text {
+        display: none;
+    }
+    .feedback-circles {
+        margin-top: 25px;
+        margin-left: 0;
+        margin-right: 25px;
+        width: 10%;
+        height: 25%;
+    }
+    .right-arrow {
+        padding-top: 94px;
+        border-width: 2px;
+        width: 14px;
+        height: 24px;
+        padding-left: 48px;
+    }
+    .slider-points {
+        padding-top: 29px;
+        width: 7.2%;
+        height: 20%;
+    }
+    .contacts-headline {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-top: 79px;
+        margin-bottom: 27px;
+        padding-left: 90px;
+    }
+    .contacts-map {
+        height: 355px;
+    }
+    .contacts-address {
+        left: 49px;
+        top: 134px;
+        width: 248px;
+        height: 285px;
+    }
+    .text-address {
+        padding-top: 27px;
+        padding-left: 35px;
+    }
+    .text-address p{
+        font-size: 18px;
+        line-height: 1.255;
+    }
+    .phone {
+        margin-top: 33px;
+        margin-bottom: 4px;
+    }
+    .mail {
+        margin-top: 32px;
+        margin-bottom: 4px;
+    }
+    .main-footer {
+        height: 69px;
+    }
+    .main-footer .container {
+        padding-top: 12px;
+        max-width: 726px;
+    }
+    .footer-headline {
+        font-size: 12px;
+        line-height: 1.574;
+    }
+    .footer-vk {
+        width: 20px;
+        height: 11px;
+    }
+    .footer-fb{
+        width: 8px;
+        height: 15px;
+    }
+    .footer-instagram{
+        width: 13px;
+        height: 13px;
+    }
+    .footer-media {
+        padding-top: 13px;
+        width: 73.67px;
+        padding-right: 0;
+    }
+    .vkontakte {
+        padding-top: 2px;
+    }
+    .facebook {
+        padding-top: 2px;
+    }
+    .footer-logo {
+        font-size: 8px;
+        width: 38px;
+        margin-top: 7px;
+        margin-right: 73px;
+        letter-spacing: 0.35px;
+    }
+    .footer-image{
+        width: 38px;
+        height: 22px;
+    }
+    .footer-plus{
+        vertical-align: 0.2em;
+    }
+    .number-box1{
+        display: none;
+    }
+    .number-box2{
+        display: none;
+    }
+    .number-box3{
+        display: none;
+    }
+    .number-box5{
+        display: none;
+    }
+}
+@media (min-width: 320px) and (max-width: 763px) {
+    .main-header {
+        background-image: url('../img/another-front-lady.png'), url('../img/white-circles.png'),
+        url('../img/left-circle.png');
+        background-position: left 78px top 141px, left 260px top 63px, left -180px top -56px;
+        background-size: 300px 318px, 72px 87px, 175% 552px;
+        padding-top: 9px;
+        min-height: 480px;
+    }
+    .pilates-phone{
+        display: none;
+    }
+    .container{
+        max-width: 291px;
+        padding-top: 6px;
+    }
+    .pilates-front {
+        padding-top: 89px;
+    }
+    .pilates-headline {
+        font-size: 30px;
+        width: 211.308px;
+        letter-spacing: 2.25px;
+    }
+    .pilates-text{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .pilates-image{
+        width: 62%;
+        height: 60%;
+    }
+    .pilates-logo{
+        font-size: 7px;
+        color: rgb(254, 254, 254);
+    }
+    .burger-menu {
+        margin-top: 8px;
+        margin-left: 0;
+        width: 17px;
+        height: 13px;
+    }
+    .schedule-btn {
+        font-size: 11px;
+        line-height: 32px;
+        width: 152px;
+        height: 35px;
+        margin-top: 20px;
+    }
+    .about-headline {
+        font-size: 18px;
+        line-height: 0.791;
+        padding-top: 0;
+        padding-left: 7px;
+        letter-spacing: -0.2px;
+    }
+    .about-pilates {
+        padding-top: 33px;
+        background-image: none;
+    }
+    .about-toptext {
+        font-size: 14px;
+        line-height: 1.2;
+        width: 284px;
+        margin-top: 27px;
+    }
+    .about-bottomtext {
+         font-size: 14px;
+         line-height: 1.19;
+         width: 290px;
+         white-space: normal;
+        margin-top: 8px;
+        margin-bottom: 28px;
+     }
+    .detail-text {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .detail-arrow{
+        width: 7px;
+        height: 12px;
+        top: 1px;
+        left: 98px;
+    }
+    .yoga-meditation {
+        top: 190px;
+        left: 19px;
+        width: 93%;
+        height: 47%;
+    }
+    .about-pilates .container{
+        height: 420px;
+    }
+    .shedule-pilates{
+        padding-bottom: 0;
+    }
+    .shedule-headline {
+        margin-top: 4px;
+        margin-bottom: 29px;
+        font-size: 18px;
+        line-height: 0.796;
+        padding-left: 8px;
+        letter-spacing: -0.32px;
+    }
+    .novice-block, .profi-block, .master-block {
+        width: 84%;
+        height: 100%;
+        padding-left: 44px;
+        padding-top: 99px;
+        margin-left: 23px;
+        margin-bottom: 21px;
+    }
+    .number {
+        top: 18px;
+        left: 67px;
+        right: 0;
+        font-size: 114px;
+    }
+    .level{
+        font-size: 12px;
+    }
+    .level span{
+        font-size: 18px;
+        letter-spacing: 1.8px;
+    }
+    .meeting-monday, .meeting-wednesday, .meeting-friday{
+        font-size: 16px;
+        white-space: normal;
+    }
+    .meeting-monday {
+        margin-top: 23px;
+        white-space: normal;
+    }
+    .meeting-wednesday{
+        margin-bottom: 12px;
+    }
+    .check-btn {
+        width: 127px;
+        height: 26px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 32px;
+        margin-left: 2px;
+        margin-bottom: 41px;
+    }
+    .check-btn> .schedule-arrow {
+        border-width: 1px;
+        left: 112px;
+        top: 7px;
+        width: 28%;
+        height: 45%;
+    }
+    .price {
+        font-size: 16px;
+        margin-top: 12px;
+        letter-spacing: 0;
+    }
+    .training-headline {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-top: 19px;
+        padding-left: 7px;
+        letter-spacing: -0.45px;
+    }
+    .breath-subheadline{
+        font-size: 14px;
+        padding-left: 69px;
+        padding-top: 9px;
+    }
+    .breath-text{
+        font-size: 14px;
+        line-height: 1.2;
+        padding-left: 7px;
+        padding-top: 251px;
+        width: 283px;
+        text-align: center;
+    }
+    .breath-image {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+   .lady-on-ball {
+       top: 77px;
+       width: 82%;
+       height: 100%;
+       padding-left: 22px;
+       padding-right: 0;
+    }
+    .training-block{
+        flex-grow: 0;
+        width: 85%;
+    }
+    .warmup-block {
+        width: 100%;
+    }
+    .warmup-image{
+        position: absolute;
+    }
+    .lady-on-back {
+        padding-left: 66px;
+        width: 97%;
+        height: 100%;
+        top: 448px;
+    }
+    .warmup-subheadline {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 45px;
+        padding-left: 0;
+        margin-bottom: 291px;
+    }
+    .warmup-text{
+        font-size: 14px;
+        padding-top: 0;
+        padding-left: 0;
+        line-height: 1.2;
+        width: 290px;
+        text-align: center;
+    }
+    .main-block, .main-image {
+        width: 100%;
+    }
+    .mainblock-subheadline {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 59px;
+        padding-bottom: 303px;
+    }
+    .mainblock-text {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 13px;
+        white-space: normal;
+        margin-top: 3px;
+        line-height: 1.2;
+        width: 286px;
+    }
+    .main-image {
+        position: absolute;
+    }
+
+   .lady-layingon-ball {
+        position: relative;
+        top: 1010px;
+        width: 92%;
+        height: 86%;
+        margin-left: 7px;
+        padding-right: 0;
+    }
+    .stretching-block {
+        width: 100%;
+        position: absolute;
+        top: 1345px;
+    }
+    .stretching-wrap {
+        width: 100%;
+    }
+    .lady-stretching {
+        padding-top: 108px;
+        width: 286px;
+        height: 72%;
+        padding-left: 0;
+        box-sizing: border-box;
+    }
+    .stretching-subheadline {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 49px;
+        padding-bottom: 281px;
+    }
+    .stretching-text {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 2px;
+        line-height: 1.2;
+        width: 290px;
+        box-sizing: border-box;
+    }
+    .pilates-training {
+        height: 1800px;
+    }
+    .feedback-headline {
+        margin-top: 25px;
+        padding-left: 9px;
+        font-size: 18px;
+        line-height: 0.807;
+        letter-spacing: -0.5px;
+    }
+    .arrow-ref{
+        display:none;
+    }
+    .feedback-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        width: 290px;
+        height: 323px;
+        margin-top: 17px;
+    }
+    .photo-lady {
+        padding-top: 39px;
+        padding-left: 88px;
+        width: 34%;
+        height: 30%;
+    }
+    .feedback-text {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .feedback-subheadline {
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-top: 14px;
+        padding-left: 62px;
+    }
+    .age-line {
+        width: 205px;
+        align-items: center;
+    }
+    .photo-age {
+        padding-left: 78px;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .feedback-description {
+        margin-top: 19px;
+        padding-left: 4px;
+    }
+    .description-text {
+        width: 280px;
+        height: 95px;
+        font-size: 14px;
+        line-height: 1.2;
+        white-space: normal;
+        text-align: center;
+    }
+    .delete-text {
+        display: none;
+    }
+    .half-text {
+        width: 220px;
+        display: inline-block;
+    }
+    .feedback-circles {
+       display: none;
+    }
+    .small-vk {
+        width: 20px;
+        height: 12px;
+        padding-left: 8px;
+    }
+    .instagram {
+        width: 15px;
+        height: 16px;
+        padding-top: 2px;
+        padding-right: 8px;
+    }
+    .slider-points{
+        width: 16%;
+        height: 22.5%;
+        padding-top: 24px;
+    }
+    .contacts-headline {
+        font-size: 18px;
+        padding-left: 23px;
+        margin-top: 54px;
+        margin-bottom: 200px;
+        letter-spacing: -0.3px;
+    }
+    .contacts-address {
+        background-color: rgb(255, 255, 255);
+        top: 98px;
+        left: 36px;
+        box-shadow: none;
+        height: 183px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .text-address p, .text-address a {
+        color: rgba(0, 0, 0, 0.871);
+    }
+    .text-address a {
+        font-size: 14px;
+    }
+    .text-address {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .address {
+        margin-bottom: 0;
+    }
+    .address-ref {
+        line-height: 18px;
+    }
+    .phone {
+        line-height: 1.415;
+        margin-top: 14px;
+        margin-bottom: -1px;
+    }
+    .mail {
+        margin-top: 10px;
+        margin-bottom: -3px;
+        line-height: 1.418;
+    }
+    .contacts-map {
+        height: 272px;
+        margin-top: 49px;
+    }
+    .main-footer {
+        height: 157px;
+    }
+    .footer-vk {
+        width: 20px;
+        height: 11px;
+    }
+    .footer-fb {
+        width: 8px;
+        height: 15px;
+    }
+    .footer-instagram {
+        width: 13px;
+        height: 13px;
+    }
+    .footer-headline {
+        font-size: 10px;
+        letter-spacing: 1px;
+        color: rgb(254, 254, 254);
+        line-height: 1.994;
+    }
+    .main-footer .container {
+        padding-top: 40px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .footer-logo {
+        margin-right: 70px;
+        position: absolute;
+        left: 128px;
+        top: 42px;
+    }
+    .footer-media {
+        padding-top: 42px;
+    }
+    .vkontakte {
+        padding-top: 1.33px;
+        padding-left: 11px;
+    }
+    .footer-headline {
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 1.994;
+        margin-top: 31px;
+        margin-right: 5px;
+    }
+    .number-box1{
+        display: none;
+    }
+    .number-box2{
+        display: none;
+    }
+    .number-box3{
+        display: none;
+    }
+    .number-box5{
+        display: none;
+    }
+}
+/* Pilates Footer */

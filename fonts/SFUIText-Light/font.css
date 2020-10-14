@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SFUIText-Light';
+  src: url('SFUIText-Light.eot');
+  src: url('SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+       url('SFUIText-Light.svg#SFUIText-Light') format('svg'),
+       url('SFUIText-Light.ttf') format('truetype'),
+       url('SFUIText-Light.woff') format('woff'),
+       url('SFUIText-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
